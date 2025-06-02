@@ -133,7 +133,7 @@ const Navbar = () => {
           >
             <StyledBox>
               <img
-                src={"src/assets/vision_logo.jpg"}
+                src={"/vision_logo.jpg"}
                 alt="logo"
                 style={{
                   width: "55px",
