@@ -22,7 +22,7 @@ const Header: FunctionComponent = () => {
     >
       <Box
         component="img"
-        src="/src/assets/vision_dashboard_five.jpg"
+        src="/vision_dashboard_five.jpg"
         alt="Background"
         sx={{
           width: "100%",
@@ -123,7 +123,6 @@ const Header: FunctionComponent = () => {
             gap: 2,
             flexWrap: "nowrap",
             overflow: "hidden",
-            
           }}
         >
           <Typography
@@ -156,7 +155,7 @@ const Header: FunctionComponent = () => {
               fontWeight: 500,
               whiteSpace: "nowrap",
               flexShrink: 0,
-              paddingRight : "200px"
+              paddingRight: "200px",
             }}
           >
             25 Garbage sites cleaned.
