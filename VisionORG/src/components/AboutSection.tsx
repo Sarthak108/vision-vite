@@ -50,7 +50,7 @@ const AboutSection: FunctionComponent = () => {
                             </Typography>
                         </Box>
                         <Typography variant="h3" sx={{ fontWeight: 'bold', mb: 3, color: '#1d2130' }}>
-                            We provide a place for children with special needs
+                            We educate and provide health & hygiene services to common people.
                         </Typography>
                         <Typography variant="body1" sx={{ color: '#525560', mb: 2, lineHeight: 1.6 }}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.

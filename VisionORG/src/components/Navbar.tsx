@@ -15,6 +15,14 @@ import {
 import { styled } from "@mui/material/styles";
 import { useState } from "react";
 
+const StyledBox = styled(Box)`
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center items in each box */
+  flex-direction: row;
+  gap: 15px;
+`;
+
 const Largerthan = styled(Typography)(({ theme }) => ({
   fontSize: "28px",
   fontFamily: "inherit",
@@ -129,8 +137,19 @@ const Navbar = () => {
             sx={{ display: "flex", alignItems: "center", cursor: "pointer" }}
             onClick={onGroupContainerClick}
           >
-            <Largerthan variant="h6">largerthan</Largerthan>
-            <I>i</I>
+            <StyledBox>
+              <img
+                src={"src/assets/vision_logo.jpg"}
+                alt="logo"
+                style={{
+                  width: "55px",
+                  height: "55px",
+                  borderRadius: "50%",
+                }}
+              />
+
+              <Largerthan variant="h6">Vision</Largerthan>
+            </StyledBox>
           </Box>
           <LinkContainer>
             {menuItems.map((item) => (

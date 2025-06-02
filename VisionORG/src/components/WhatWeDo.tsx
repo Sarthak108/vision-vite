@@ -44,7 +44,7 @@ const WhatWeDo: FunctionComponent = () => {
 
                 {/* Main Text Content */}
                 <Typography variant="h5" sx={{ fontWeight: 'bold', color: '#1d2130', mb: 2, textAlign: { xs: 'center', md: 'left' } }}>
-                    Some services we provide for our children
+                    Some services we provide in our cities
                 </Typography>
                 <Typography variant="body1" sx={{ lineHeight: 1.6, mb: 4, textAlign: { xs: 'center', md: 'left' } }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
@@ -52,10 +52,10 @@ const WhatWeDo: FunctionComponent = () => {
 
                 {/* List of Functions */}
                 <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-                    <FunctionItem icon={<FamilyRestroomIcon />} title="Family support" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros." />
-                    <FunctionItem icon={<HealthAndSafetyIcon />} title="Health benefits" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros." />
-                    <FunctionItem icon={<SchoolIcon />} title="Scholarships" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros." />
-                    <FunctionItem icon={<LocalHospitalIcon />} title="Therapy" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros." />
+                    <FunctionItem icon={<FamilyRestroomIcon />} title="Tree Plantation Drives" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros." />
+                    <FunctionItem icon={<HealthAndSafetyIcon />} title="Hygiene Rallies" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros." />
+                    <FunctionItem icon={<SchoolIcon />} title="School Education Drives" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros." />
+                    <FunctionItem icon={<LocalHospitalIcon />} title="Cleaniless Awareness Drives" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros." />
                 </Box>
             </Box>
 

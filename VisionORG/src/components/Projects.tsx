@@ -66,7 +66,7 @@ const Projects: FunctionComponent = () => {
 
                     }}
                 >
-                    We are creating a place where children with special needs can thrive
+                    We are creating a place where cleanliness helps communities thrive with health and hygiene.
                 </Typography>
 
             </Box>
