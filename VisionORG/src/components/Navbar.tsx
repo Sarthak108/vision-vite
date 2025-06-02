@@ -23,7 +23,7 @@ const StyledBox = styled(Box)`
   gap: 15px;
 `;
 
-const Largerthan = styled(Typography)(({ theme }) => ({
+const Largerthan = styled(Typography)(({ }) => ({
   fontSize: "28px",
   fontFamily: "inherit",
   fontWeight: "bold",
@@ -31,12 +31,6 @@ const Largerthan = styled(Typography)(({ theme }) => ({
   letterSpacing: "1px",
 }));
 
-const I = styled("span")(({ theme }) => ({
-  fontSize: "25px",
-  fontFamily: "Courgette, cursive",
-  marginLeft: "4px",
-  color: "#1d2130",
-}));
 
 const LinkContainer = styled(Box)(({ theme }) => ({
   display: "flex",
@@ -50,7 +44,7 @@ const LinkContainer = styled(Box)(({ theme }) => ({
   },
 }));
 
-const HomeLink = styled(Button)(({ theme }) => ({
+const HomeLink = styled(Button)(({}) => ({
   textTransform: "none",
   fontWeight: 500,
   padding: "8px 12px",
@@ -62,7 +56,7 @@ const HomeLink = styled(Button)(({ theme }) => ({
   },
 }));
 
-const NavButton = styled(Button)(({ theme }) => ({
+const NavButton = styled(Button)(({ }) => ({
   borderRadius: "4px",
   backgroundColor: "#1d2130",
   color: "#fff",
