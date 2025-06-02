@@ -86,7 +86,7 @@ const AboutSection: FunctionComponent = () => {
                     >
                         <Box
                             component="img"
-                            src="/src/assets/about_home.png"
+                            src="/src/assets/vg_3.jpg"
                             alt="About Home"
                             sx={{ width: '100%', height: 'auto', display: 'block' }}
                         />

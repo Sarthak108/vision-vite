@@ -71,7 +71,7 @@ const WhatWeDo: FunctionComponent = () => {
             >
                 <Box
                     component="img"
-                    src="/src/assets/what_we_do.jpg"
+                    src="/src/assets/vg1.jpg"
                     alt="What We Do"
                     sx={{ width: '100%', height: 'auto', display: 'block' }}
                 />

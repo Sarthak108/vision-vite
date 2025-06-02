@@ -3,17 +3,17 @@ import { type FunctionComponent, useCallback } from 'react';
 
 const projectsData = [
     {
-        image: "unsplash:1-aA2Fadydc.png",
+        image: "src/assets/vg4.jpg",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
         title: "Monthly public awareness",
     },
     {
-        image: "unsplash:iIGovKRty8g.png",
+        image: "src/assets/vg2.jpg",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
         title: "Weekly excursions",
     },
     {
-        image: "unsplash:cVEOh_JJmEE.png",
+        image: "src/assets/vision_dashboard_five.jpg",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
         title: "Mission smile 1k: Outdoor charity",
     },
@@ -124,7 +124,7 @@ const Projects: FunctionComponent = () => {
                                     left: 0,
                                     width: '100%',
                                     height: '100%',
-                                    bgcolor: 'rgba(11,7,6,0.6)',
+                                    bgcolor: 'rgba(23, 14, 12, 0.33)',
                                     zIndex: 2,
                                 }}
                             />

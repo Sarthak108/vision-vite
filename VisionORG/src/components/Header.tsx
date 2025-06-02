@@ -23,7 +23,7 @@ const Header: FunctionComponent = () => {
 
             <Box
                 component="img"
-                src="/src/assets/header_bg.jpg"
+                src="/src/assets/vision_dashboard_five.jpg"
                 alt="Background"
                 sx={{
                     width: '100%',
